@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    font-family: "Plus Jakarta Sans";
+}
+.rules{
+    margin: 55px auto;
+    width: 90%;  
+}
+.bold{
+    font-weight: bold;
+}
+.gp{
+    margin-top: 30px;
+}
+.frm{
+    margin-top: 50px;
+    /* margin-bottom: 15px; */
+    line-height: 25px;
+}
+a{
+    background-color: black;
+    padding: 7px 15px;
+    text-decoration: none;
+    color: white;
+    font-family: "Plus Jakarta Sans";
+    border-radius: 5px;
+    /* position: relative;
+    margin: 0px 30px ; */
+}

@@ -1,0 +1,42 @@
+.box{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    margin: auto;
+    color: green;
+    box-shadow: 5px 5px black;
+    /*Positive box-shadowing, where the shadows are in bottom and right side.*/
+}
+.box1{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    margin: 10px auto;
+    color: blue;
+    box-shadow: -5px -5px black;
+    /*Negative box-shadowing, where the shadows are in the top and left side*/
+}
+
+.box2{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    margin: 10px auto;
+    color: yellow;
+    box-shadow: 5px 5px 5px black;
+    /*THE THIRD SET OF DIGIT IS ADDED TO ADD THE "BLUR-RADIUS" TO ANY BOX-SHADOW.*/
+}
+
+.box3{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    margin: 10px auto;
+    color: orangered;
+    box-shadow: 5px 5px 3px 10px black;
+    /*THE 4TH SET OD DIGITS IS ADDED TO DEFINE THE INTENSITY OF SPREAD OF THE SHANDOW ON "ALL FOUR SIDES"  */
+    
+}
+
+
+/*YOU CAN CONTROL WHETHER YOU WANT THE BOX SHADOW TO BE ON TOP, BOTTOM, RIGHT SIDE OR LEFT SIDE.*/

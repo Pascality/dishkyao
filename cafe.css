@@ -1,0 +1,57 @@
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 40px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  .established {
+    font-style: italic;
+    /*style of the font(italic, bold,etc.)*/
+  }
+  
+  h1, h2, p {
+    text-align: center;
+  }
+  
+  .menu {
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;/*Padiing on ALL sides,(Left-Right-Top-Bottom)*/
+    max-width: 500px;
+  }
+  
+  hr {
+    height: 2px;
+    /*The hr has 1px of height on/in its edge, this if we make the height of borfer to 2px, the total 
+    height of the border becomes 4 px.*/
+    background-color: brown;/*color of the hr*/
+    border-color: brown;/*color of the BORDER of the hr*/
+  }
+  h1, h2 {
+    font-family: Impact, serif;
+  }
+  
+  .item p {
+    display: inline-block;
+    /*bring the BLOCK LEVEL ELEMENTS in one line.*/
+  }
+  
+  .flavor, .dessert { /*In this case, we have applied the properties to two different classes*/
+    text-align: left;
+    width: 75%;
+  }
+  
+  .price {
+    text-align: right;
+    width: 25%
+  }

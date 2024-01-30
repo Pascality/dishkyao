@@ -1,0 +1,63 @@
+body{
+  background: linear-gradient(90deg, teal, purple);
+}
+
+h1 {
+    text-align: center;
+}
+  
+.container {
+    /* background-color: rgb(255, 255, 255); */
+    padding: 10px 0;
+}
+  
+.marker {
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+}
+  
+.red { /*color grediants in one direction.*/
+    background: linear-gradient(90deg, rgb(255, 0, 0), rgb(0, 255, 0));
+    /* background: linear-gradient(to top right, rgb(255, 0, 0), rgb(0, 255, 0)); */
+    /* background: linear-gradient(to bottom left, rgb(255, 0, 0), rgb(0, 255, 0)); */
+    /* ETC */
+}
+  
+.green { /*Linear gradients with percentage.*/
+    background: linear-gradient(green 70%, orange 30%)
+    /*Applying PERCENTAGES to the all the different color makes it so that there
+    is no gradual smushing of the colors but the color changes happen directly.*/
+}
+  
+.blue {
+    background-image: repeating-linear-gradient(rgba(212, 61, 94, 0.973) 10%, hsl(288, 58%, 70%) 20%, rgb(162, 15, 247) 30%);
+}
+
+.black{
+    background: linear-gradient(rgb(0,0,0) 50%, gray 50%);
+    box-shadow: 5px 5px black;
+}
+.box{
+    width: 200px;
+    height: 100px;
+    margin: 20px auto;
+}
+
+.orange{ /*WE CANNOT ADD PERCENTAGE WITH MORE THAN 2 COLORS*/
+    background: linear-gradient(orange 30%, red 30%, green);
+}   /*we can add multiple colours in a gradual gradient form  but not in a direct percentage format.*/
+
+.sleeve{ /*OPACITY can be added to make a color or an IMAGE opaque of lighter.*/
+    background-color: white;
+    opacity: 0.3;
+    width: 130px;
+    height: 100px;
+} 
+
+.tamba{
+    background: linear-gradient(90deg,teal, purple);
+}
+
+
+ 

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+body{
+    margin: 0;
+    font-family: "Plus Jakarta Sans";
+}
+.flex{
+    display: flex;
+}
+.images{
+    /* height: 20px;*/
+    width: 100%;
+    
+    /* display: block;  */
+    max-width: 3000px;
+    margin: 0px auto;
+
+}
+.sponsors{
+    
+    width: 90%;
+    margin: auto;
+    line-height: 80px;
+}
+.sty img{
+    width: 120px;
+    height: 120px;
+    /* border: 1px solid black; */
+    display: block;
+    display: inline-block;
+    object-fit: contain;
+    transform: scale(1.2);
+    /* margin-right: 10px; */
+}
+h1{/*ya block level madhe margin kaam ka nahi keli*/
+   text-align: center;
+   font-size: 30px;
+   /* text-decoration: underline solid 3px black; */
+}
+.sty{
+   width: 75%;
+   display: flex;
+   margin: 0 auto;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 68px;
+   margin-bottom: 20px;
+
+}
+p{
+    /* margin: 0 0; */
+    margin: 0px auto;
+    text-align: center;
+    font-weight: 500;
+    line-height: 10px;
+    font-size: 15px;
+}
+.line{
+    width: 90%;
+    height: 1px;
+    background-color: rgb(133, 127, 127);
+    margin: 0px auto;
+    margin-top: 55px;
+
+
+}
+.line1{
+    background-color: rgb(133, 127, 127);
+    width: 90%;
+    height: 1px;
+    margin: 55px auto;
+    margin-bottom: 40px;
+
+}
+#tt{
+    line-height: 80px;
+}
+.sty1{
+    width: 75%;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 68px;
+    margin-bottom: 20px;
+} 
+#nat{
+    width: 150px;
+    height: 120px;
+}
+#rizz{
+    width: 220px;
+    height: 120px;
+}
+#ps{
+    margin-bottom: 40px;
+}
